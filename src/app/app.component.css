@@ -1,0 +1,13 @@
+.header.small {
+  height: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.header.small ~ .offset {
+  padding-top: 140px;
+}
+.header.small .header_logo {
+  padding-top: 20px;
+  font-size: 20px;
+  text-shadow: none;
+}
+
