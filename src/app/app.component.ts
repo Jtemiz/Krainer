@@ -9,6 +9,7 @@ export class AppComponent implements OnInit {
   title = 'Krainer';
 
   ngOnInit() {
+    /*
     window.addEventListener('scroll', function () {
       navbarScroll();
     });
@@ -29,5 +30,7 @@ export class AppComponent implements OnInit {
         }
       }
     }
+
+     */
   }
 }

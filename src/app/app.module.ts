@@ -11,6 +11,9 @@ import {NgbConfig} from '@ng-bootstrap/ng-bootstrap';
 import { SheepInfoComponent } from './sites/sheep-info/sheep-info.component';
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
+import { ServiceComponent } from './sites/service/service.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -19,7 +22,8 @@ import {MatGridListModule} from "@angular/material/grid-list";
     HomeComponent,
     AboutComponent,
     OffersComponent,
-    SheepInfoComponent
+    SheepInfoComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +32,8 @@ import {MatGridListModule} from "@angular/material/grid-list";
     BrowserAnimationsModule,
     MatCardModule,
     MatGridListModule,
+    MatIconModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent, OffersComponent, AboutComponent, HomeComponent]
