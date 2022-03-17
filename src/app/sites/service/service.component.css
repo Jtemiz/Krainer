@@ -1,0 +1,21 @@
+.content-text {
+  text-align: center;
+  color: #dcdcdc;
+}
+
+.content-header {
+  font-size: 350%;
+  font-weight: 200;
+  line-height: 120%
+}
+
+.jumbotron-custom {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%
+}
+.table-custom {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}

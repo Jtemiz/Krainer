@@ -1,0 +1,38 @@
+<img *ngIf="isMobileDevice" src="assets/logo.png" class="rounded fixed-top custom-logo" width="20%">
+<img *ngIf="!isMobileDevice" src="assets/logo.png" class="rounded fixed-top custom-logo" width="10%">
+
+<div class="jumbotron jumbotron-fluid" style="height: fit-content; margin-top: 10%">
+  <div style="width: 40%" class="d-inline">
+    <div class="jumbotron jumbotron-custom"><p class="content-text content-header mat-headline">
+      Freude an der Arbeit lässt das Werk trefflich geraten. <span style="font-size:20px; font-weight: 100"> <br> – Aristoteles </span>
+    </p>
+      <p class="content-text mat-title" style="font-size:20px; font-weight: 100">Hier entsteht die neue Homepage der
+        Schäferei Pfronten</p>
+    </div>
+
+    <p class="content-text mat-title" style="font-size:40px; font-weight: 100">Du kannst es nicht erwarten?</p>
+    <p class="content-text" style="font-size:20px; font-weight: 100">Bei Fragen stehen wir Dir selbstverständlich zur
+      Verfügung.</p>
+    <table class="table-custom">
+      <tr>
+        <td><a href="tel:01706731424">
+          <button mat-fab color="primary">
+            <mat-icon>call</mat-icon>
+          </button>
+        </a>
+        </td>
+        <td><p class="content-text" style="font-size:20px; font-weight: 100;" *ngIf="!isMobileDevice">01706731424</p>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="mailto:jtemiz@gmx.de">
+          <button mat-fab color="primary">
+            <mat-icon>mail</mat-icon>
+          </button>
+        </a></td>
+        <td><p class="content-text" style="font-size:20px; font-weight: 100;" *ngIf="!isMobileDevice">Jtemiz@gmx.de</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

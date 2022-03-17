@@ -17,9 +17,19 @@ body {
 }
 
 .custom-container {
-  max-width: 70%;
+  width: 90%;
   margin-top: 5%;
+  color: #cbcbcb;
 }
+
+@media (min-width:961px)  {
+  .custom-container {
+    max-width: 70%;
+    margin-top: 5%;
+    color: #cbcbcb;
+  }
+}
+
 
 .jumbotron {
   background: rgb(95, 87, 77); /* This is for ie8 and below */
